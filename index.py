@@ -1,5 +1,5 @@
-from pydub import AudioSegment
-from pocketsphinx import AudioFile #Пока не получилось скачачать библиотеку
+from pydub import AudioSegment #pip install pydub
+from pocketsphinx import AudioFile #Пока не получилось скачачать библиотеку #pip install pocketsphinx
 
 # Открываем аудиофайл с помощью PyDub
 audio_file = AudioSegment.from_mp3("audio.mp3") #Путь к моему файлу
